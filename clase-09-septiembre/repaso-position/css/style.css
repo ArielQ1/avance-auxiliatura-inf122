@@ -1,0 +1,80 @@
+:root{
+    color-scheme: light dark;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    border: 5px solid black;
+    width: 300px;
+    margin: 10vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+/*
+1ro static
+2do relative
+3ro absolute
+4to stiky
+5to fixed
+
+*/
+
+
+.caja {
+    
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.caja-1{
+    background: #f00;
+    position: relative;
+    top: -50px;
+    left: -50px;
+
+}
+.caja-2{
+    background: #0f0;
+    position: absolute;
+    top: 200px;
+}
+.caja-3{
+    background: #f0f;
+    position: fixed;
+    top: 15px;
+}
+.caja-4{
+    background: #00f;
+    
+}
+.caja-5{
+    background: rgb(168, 88, 88);
+
+}
+.caja-6{
+    background: rgb(48, 199, 66);
+
+}
+.caja-7{
+    background: rgb(80, 187, 169);
+    position: sticky;
+    top: 0;
+}
+.caja-8{
+    background: rgb(96, 79, 164);
+
+}
+.caja-9{
+    background: rgb(138, 55, 94);
+
+}

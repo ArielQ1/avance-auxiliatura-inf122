@@ -31,4 +31,6 @@ Este repositorio contiene los siguientes elementos:
 - 
 # Avance
 - Clase 06 de Septiembre => Repaso de CSS y HTML
-    - Carpeta de la clase [Avance 06 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/3db2c56cb98ec5e9aef93a128b5b354dfa045597/clase-09-septiembre).
+    - Carpeta de la clase [Avance 06 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/01-clase-06-09(position)).
+- Clase 10 de Septiembre => Estilos - Flexbox
+    - Carpeta de la clase [Avance 10 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/02-clase-10-09(flexbox)).

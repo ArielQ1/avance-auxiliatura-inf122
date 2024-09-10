@@ -40,7 +40,7 @@ A continuación se muestra un ejemplo que ilustra los diferentes valores de `pos
 
 ## Conclusión
 
-La propiedad `position` en CSS es esencial para controlar la disposición de los elementos en una página web. Comprender cómo funciona cada valor te ayudará a crear diseños más efectivos y adaptables. Experimenta con estos valores para ver cómo afectan la disposición de tus elementos.
+La propiedad `position` en CSS es esencial para controlar la disposición de los elementos en una página web. Comprender cómo funciona cada valor te ayudará a crear diseños más efectivos y adaptables.
 
 ---
 

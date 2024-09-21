@@ -36,8 +36,8 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
       background: rgb(29, 211, 211);
     }
     ```
-
-    ![ejemplo-grid](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-grid.PNG)
+    
+    ![ejemplo-grid](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-grid.PNG)
 
 
 2. **grid-template-columns / grid-template-rows**  
@@ -52,7 +52,7 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
    }
    ```
 
-    ![ejemplo-template-column-row](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-template-rc.PNG)
+    ![ejemplo-template-column-row](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-template-rc.PNG)
 
 3. **grid-gap / row-gap / column-gap**  
    Define el espacio entre filas y columnas. `grid-gap` es un shorthand para `row-gap` y `column-gap`.  
@@ -68,7 +68,7 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
     }
    ```
 
-    ![ejemplo-gap](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-gap.PNG)
+    ![ejemplo-gap](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-gap.PNG)
 
 4. **grid-template-areas**  
    Permite asignar nombres a diferentes áreas del grid para crear layouts más semánticos.  
@@ -90,8 +90,8 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
                "aside footer footer";
     }
    ```
-    
-    ![ejemplo-areas](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-areas.PNG)
+
+    ![ejemplo-areas](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-areas.PNG)
 
 5. **grid-auto-rows / grid-auto-columns**  
    Define el tamaño de las filas o columnas que se crean automáticamente cuando se añaden más elementos de los esperados.
@@ -112,7 +112,7 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
     }
    ```
 
-    ![ejemplo-items](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-items.PNG)
+    ![ejemplo-items](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-items.PNG)
 
 7. **justify-content / align-content**  
    Ajustan el espacio dentro del contenedor grid cuando el tamaño del grid es menor que el tamaño del contenedor, alineando todo el grid dentro del contenedor.
@@ -130,7 +130,7 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
     }
     ```
 
-    ![ejemplo-content](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo-contentrc.PNG)
+    ![ejemplo-content](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo-contentrc.PNG)
 
 ### Propiedades de los Elementos Grid (Hijos)
 
@@ -214,7 +214,7 @@ CSS Grid es un sistema de diseño bidimensional que permite crear layouts comple
 
 ## Visualización de CSS Grid
 
-![CSS Grid Ejemplo](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/imagenes/ejemplo1.PNG)
+![CSS Grid Ejemplo](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/03-clase-17-09(grid)/clase/img/ejemplo1.PNG)
 
 ## Ventajas de CSS Grid
 

@@ -16,7 +16,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
 3. **Propiedades del Contenedor Flex:**
    - `flex-direction`: Define la dirección de los elementos hijos
         - row 
-            ![Ejemplo-row](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/row.PNG)
+            ![Ejemplo-row](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-flexbox/imagenes/row.PNG)
             ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
@@ -39,7 +39,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             </style>
             ```
         - row-reverse
-            ![Ejemplo-row-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/row-reverse.PNG)
+            ![Ejemplo-row-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-flexbox/imagenes/row-reverse.PNG)
             ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
@@ -62,7 +62,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             </style>
             ```
         - column
-            ![Ejemplo-column](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/column.PNG)
+            ![Ejemplo-column](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-flexbox/imagenes/column.PNG)
             ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
@@ -85,7 +85,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             </style>
             ```
         - column-reverse
-            ![Ejemplo-column-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/column-reverse.PNG)
+            ![Ejemplo-column-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-flexbox/imagenes/column-reverse.PNG)
             ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>

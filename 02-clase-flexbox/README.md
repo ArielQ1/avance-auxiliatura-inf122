@@ -1,7 +1,7 @@
 # Flexbox: Guía Práctica
 
 **Docente:** Ph.D. Marisol Tellez Ramírez  
-**Auxiliar:** Ariel Quizaya Callisaya
+**Auxiliar:** Univ. Ariel Quizaya Callisaya
 
 ## Introducción a Flexbox
 
@@ -17,7 +17,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
    - `flex-direction`: Define la dirección de los elementos hijos
         - row 
             ![Ejemplo-row](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/row.PNG)
-            ```
+            ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
                 <div class="flex-item">2</div>
@@ -25,7 +25,6 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
                 <div class="flex-item">4</div>
                 <div class="flex-item">5</div>
             </div>
-      
             <style>
                 .flex-container {
                     display: flex;
@@ -41,7 +40,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             ```
         - row-reverse
             ![Ejemplo-row-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/row-reverse.PNG)
-            ```
+            ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
                 <div class="flex-item">2</div>
@@ -49,7 +48,6 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
                 <div class="flex-item">4</div>
                 <div class="flex-item">5</div>
             </div>
-      
             <style>
                 .flex-container {
                     display: flex;
@@ -65,7 +63,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             ```
         - column
             ![Ejemplo-column](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/column.PNG)
-            ```
+            ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
                 <div class="flex-item">2</div>
@@ -73,7 +71,6 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
                 <div class="flex-item">4</div>
                 <div class="flex-item">5</div>
             </div>
-      
             <style>
                 .flex-container {
                     display: flex;
@@ -89,7 +86,7 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
             ```
         - column-reverse
             ![Ejemplo-column-reverse](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/02-clase-10-09(flexbox)/imagenes/column-reverse.PNG)
-            ```
+            ```html
             <div class="flex-container">
                 <div class="flex-item">1</div>
                 <div class="flex-item">2</div>
@@ -97,7 +94,6 @@ Flexbox es un modelo de diseño unidimensional que se utiliza en CSS para alinea
                 <div class="flex-item">4</div>
                 <div class="flex-item">5</div>
             </div>
-      
             <style>
                 .flex-container {
                     display: flex;

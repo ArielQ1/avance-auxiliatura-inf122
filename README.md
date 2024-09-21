@@ -28,9 +28,11 @@ Este repositorio contiene los siguientes elementos:
 - **Figma**: Diseño de interfaces y experiencias de usuario.
 - **GitHub**: Gestión de código y trabajo colaborativo.
 - **React**: Construcción de aplicaciones web modernas y reactivas.
-- 
+
 # Avance
 - Clase 06 de Septiembre => Repaso de CSS y HTML
-    - Carpeta de la clase [Avance 06 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/01-clase-06-09(position)).
+    - Carpeta de la clase [Avance 06 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/01-clase-position).
 - Clase 10 de Septiembre => Estilos - Flexbox
-    - Carpeta de la clase [Avance 10 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/02-clase-10-09(flexbox)).
+    - Carpeta de la clase [Avance 10 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/02-clase-flexbox).
+- Clase 17 de Septiembre => Estilos - Grid
+    - Carpeta de la clase [Avance 17 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/03-clase-grid).    

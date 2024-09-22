@@ -63,7 +63,7 @@ Esto oculta la barra lateral cuando la altura de la ventana es menor a 500 píxe
 ### 4. `orientation`
 La propiedad `orientation` permite aplicar estilos basados en la orientación de la pantalla: vertical (portrait) u horizontal (landscape).  
 
-![ejemplo portrait y landscape](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/04-clase-media-queries/clase/img/portait-landscape.PNG)
+![ejemplo portrait y landscape](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/04-clase-media-queries/clase/img/portrait-landscape.PNG)
 
 Ejemplo:
 ```css
@@ -148,7 +148,7 @@ body {
 
 ## Visualización de Media Queries
 
-![Media Queries Ejemplo](ttps://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/04-clase-media-queries/clase/img/ultimo-ejemplo.gif)
+![Media Queries Ejemplo](https://github.com/ArielQ1/avance-auxiliatura-inf122/blob/main/04-clase-media-queries/clase/img/ultimo-ejemplo.gif)
 
 ## Ventajas de Usar Media Queries
 

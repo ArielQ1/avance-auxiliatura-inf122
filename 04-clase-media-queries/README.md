@@ -161,3 +161,7 @@ body {
 - [Guía de Media Queries (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
 - [Guía Completa de Media Queries (CSS Tricks)](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 -  [Guía de Media Queries (lenguajecss)](https://lenguajecss.com/css/responsive-web-design/media-queries/)
+
+---
+
+Espero que este README te sea útil para repasar y entender el manejo de `@media` en CSS. Si tienes alguna pregunta o necesitas más detalles, no dudes en preguntar en el grupo de Telegram de Auxiliatura 😎👌.

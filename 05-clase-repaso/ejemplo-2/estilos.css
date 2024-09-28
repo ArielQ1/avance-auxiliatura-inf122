@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body {
+    background: #222;
+}
+.container {
+    width: calc(100vw - 20px);
+    display: grid;
+    grid-template-columns: 2fr 1.5fr .5fr 1fr;
+    grid-template-areas: 
+        "area1 area2 area2 area3"
+        "area1 area4 area5 area5"
+        "area6 area7 area7 area7"
+    ;
+    grid-gap: 15px;
+    padding: 10px;
+}
+
+.container article {
+    border-radius: 20px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.articulo-1{
+    grid-area: area1;
+    background: #f4d547;
+    h1 {
+        padding: 5px 30px;
+        font-size: 32px;
+    } 
+    p {
+        padding: 10px 30px;
+    }   
+}
+.articulo-1 img {
+    border-radius: 20px 20px 0 0;
+}
+.articulo-2{
+    grid-area: area2;
+    background: #4c40e0;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 26px;    
+}
+.articulo-3{
+    grid-area: area3;
+    background: #ddded8;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 55px;
+}
+.articulo-4{
+    grid-area: area4;
+    background: #dddcd7;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    div {
+        border-radius: 15px;
+        display: grid;
+        place-content: center;
+    }
+}
+.caja-1, .caja-2{
+    height: 40%;
+    width: 40%;
+    background: #0a0734;
+    color: #fff;
+    font-size: 42px;
+    border: 3px solid #fff;
+}
+.caja-2 {
+    border-radius: 50% !important;
+}
+.caja-3{
+    height: 35%;
+    width: 80%;
+    color: #0a0734;
+    background: #f65e49;
+    font-size: 60px;
+
+}
+.articulo-5{
+    grid-area: area5;
+    background: #dddcd7;
+    padding: 9px;
+    color: #0a0734;
+    h2 {
+        font-size: 42px;
+    }
+}
+.articulo-6{
+    grid-area: area6;
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+}
+.articulo-7{
+    grid-area: area7;
+    background: #dddcd7;
+    color: #0a0734;
+    h2 {
+        padding: 15px;
+        font-size: 42px;
+        position: absolute;
+        z-index: 5; 
+        width: 330px;  
+    }
+    img {
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    width: calc(100% - 10px);
+    height: 100vh;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #111;
+    gap: 5px;
+}
+
+.container section {
+    background: #333;
+}
+
+.container section:nth-child(1) {
+    grid-column: 1 / -1;
+}
+
+.container section:first-child {
+    display: flex;
+}
+
+
+section:first-child .articulo-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 25px;
+    color: #fff;
+}
+.articulo-1 * {
+    margin: 15px;
+}
+
+button {
+    background: #555;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+
+section:first-child .articulo-2 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    
+    grid-template-areas: 
+    ". caja1 caja1 caja2 caja2 ."
+    "caja3 caja3 caja4 caja4 caja5 caja5"
+    ".caja6 caja6 caja7 caja7 ."
+    ;
+}
+
+.articulo-2 {
+    color: #fff;
+}
+
+.centar{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+.articulo-2 div {
+    background: #202;
+    border-radius: 15px;
+}
+
+.articulo-2 div:nth-child(1) {
+    grid-area: caja1;
+}
+
+.articulo-2 div:nth-child(2) {
+    grid-area: caja2;
+}
+.articulo-2 div:nth-child(3) {
+    grid-area: caja3;
+}
+.articulo-2 div:nth-child(4) {
+    grid-area: caja4;
+}
+.articulo-2 div:nth-child(5) {
+    grid-area: caja5;
+}
+.articulo-2 div:nth-child(6) {
+    grid-area: caja6;
+}
+.articulo-2 div:nth-child(7) {
+    grid-area: caja7;
+}
+
+.container section:nth-child(2) img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+
+.container section:last-child img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+
+
+@media(max-width: 1180px){
+    .container section:first-child {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section:first-child .articulo-1 {
+        width: 70%;
+    }
+    section:first-child .articulo-2{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "caja1 caja2"
+        "caja3 caja4"
+        "caja5 caja6"
+        "caja7 caja7"
+        ;
+    }
+}
+
+
+@media(max-width: 700px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+    section:first-child .articulo-1 {
+        width: 100%;
+    
+    }
+    section:first-child .articulo-2 div {
+        width: 100%;
+    }
+    section:first-child .articulo-2{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        "caja4"
+        "caja5"
+        "caja6"
+        "caja7"
+        ;
+    }
+}

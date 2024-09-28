@@ -36,3 +36,7 @@ Este repositorio contiene los siguientes elementos:
     - Carpeta de la clase [Avance 10 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/02-clase-flexbox).
 - Clase 17 de Septiembre => Estilos - Grid
     - Carpeta de la clase [Avance 17 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/03-clase-grid).    
+- README de Medias Queries
+    - Carpeta de la clase [Avance 24 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/04-clase-media-queries)
+- Clase 27 de Septiembre => Ejemplos GRID FLEX y @Medias
+    - Carpeta de la clase [Avance 27 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/05-clase-repaso)

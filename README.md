@@ -40,3 +40,7 @@ Este repositorio contiene los siguientes elementos:
     - Carpeta de la clase [Avance 24 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/04-clase-media-queries)
 - Clase 27 de Septiembre => Ejemplos GRID FLEX y @Medias
     - Carpeta de la clase [Avance 27 de Septiembre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/05-clase-repaso)
+- Clase 12 de Octubre => Solucion de los Examnes
+    - Carpeta de la clase [Avance 12 de Octubre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/06-solucion-examenes)
+- Clase 12 de Octubre => Repaso Bootstrap
+    - Carpeta de la clase [Avance 12 de Octubre](https://github.com/ArielQ1/avance-auxiliatura-inf122/tree/main/06-solucion-examenes)

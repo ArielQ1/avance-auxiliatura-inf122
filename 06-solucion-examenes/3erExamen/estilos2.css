@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 50vw;
+    height: 100vh;
+    background-color: #999;
+    position: relative;
+    inset: 0;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.parte-1 {
+    width: 120px;
+    height: 45px;
+}
+.parte-2{
+    width: 110px;
+    height: 25px;
+}
+.parte-3 {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    gap: 5px;
+    & div {
+        border: 2px solid #000;
+
+    }
+    & .caja-1, .caja-3 {
+        width: 20px;
+        height: 15px;
+        position: relative;
+        top: 5px;
+    }
+    & .caja-2 {
+        width: 20px;
+        height: 35px;
+    }
+    & .caja-4 {
+        width: 40px;
+        height: 15px;
+    }
+
+}
+.parte-4 {
+    width: 150px;
+    height: 115px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+    & .mano {
+        border-top: 1px solid #000;
+        width: 50px;
+        height: 40px;
+    }
+    & .caja-1 {
+        position: relative;
+        z-index: 10;
+        border-right: 1px solid #000;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-end;
+        & .subcaja {
+            background-color: #000;
+            height: 3px;
+            width: 30px;
+        }    
+    }
+    & .caja-2 {
+        border-left: 1px solid #000;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        & .subcaja {
+            background-color: #000;
+            height: 3px;
+            width: 30px;
+        }
+    }
+    .caja-3, .caja-4 {
+        position: absolute;
+        top: 29px;
+        left: 16px;
+        height: 45px;
+        width: 2px;
+        background-color: #000;
+    }
+    .caja-4 {
+        left: 128px;
+    }
+}
+.parte-5{
+    width: 135px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    & .cajas {
+        border: 1px solid #000;
+        width: 35px;
+        height: 90px;
+        position: relative;
+        top: -80px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+    }
+    & .subcaja {
+        position: relative;
+        top: -20px;
+        border: 1px solid #000;
+        width: 25px;
+        height: 20px;
+    }
+    & .caja-2 {
+        flex-direction: column;
+        align-items: center;
+        & .subcaja-1{
+            height: 15px;
+        }
+        & .subcaja-2 {
+            width: 10px;
+            height: 10px;
+        }
+        & .subcaja {
+            position: relative;
+            top: -56px;
+        }
+
+        
+    }
+}
+.parte-6 {
+    width: 140px;
+    height: 45px;
+}
+.parte-7 {
+    width: 120px;
+    height: 65px;
+}
+.parte-8 {
+    width: 95px;
+    height: 35px;
+}
+.parte-9 {
+    width: 85px;
+    height: 30px;
+}
+.parte-10 {
+    width: 105px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    & div {
+        background-color: #000;
+        width: 5px;
+        height: 15px;
+    }
+    .caja-4 {
+        height: 135px;
+    }
+
+}
+.parte-11{
+    width: 115px;
+    height: 45px;
+}
+.partes {
+    border: 2px solid #000;
+}

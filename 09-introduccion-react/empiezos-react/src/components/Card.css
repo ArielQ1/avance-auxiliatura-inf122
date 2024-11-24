@@ -1,0 +1,17 @@
+.contenedor {
+    width: 350px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.parrafo {
+    text-align: center;
+}
